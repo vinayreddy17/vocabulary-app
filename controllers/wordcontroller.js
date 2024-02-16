@@ -1,4 +1,3 @@
-// wordcontroller.js
 
 import { MongoClient } from 'mongodb';
 import 'dotenv/config'
