@@ -5,7 +5,8 @@ import cors from 'cors';
 // import bodyParser from 'body-parser';
 
 import { getWords } from "./controllers/wordcontroller.js";
-
+import * as dotenv from 'dotenv';
+dotenv.config();
 
 const router =express.Router();
 app.use(json());
