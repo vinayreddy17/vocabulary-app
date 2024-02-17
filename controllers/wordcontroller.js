@@ -3,7 +3,7 @@ import { MongoClient } from 'mongodb';
 import 'dotenv/config'
 
 const url =process.env.MONGO_URL
-
+console.log(process.env.MONGO_URL)
 const dbName ='vocabulary';
 
 async function dbConnection() {
